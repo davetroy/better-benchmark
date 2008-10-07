@@ -7,6 +7,11 @@
 better-benchmark was originally created by Pistos (http://github.com/Pistos/better-benchmark).  I have merely
 bundled up into a gem.
 
+== INSTALL:
+
+* gem sources -a http://gems.github.com/
+* sudo gem install jtrupiano-better-benchmark
+
 == Repository
 
 git clone git://github.com/Pistos/better-benchmark.git
@@ -41,11 +46,6 @@ The difference (-3.2%) IS NOT statistically significant.
 ## Help, etc.
 
 irc.freenode.net#mathetes or http://mibbit.com/?server=irc.freenode.net&channel=%23mathetes
-
-== INSTALL:
-
-* gem sources -a http://gems.github.com/
-* sudo gem install jtrupiano-better-benchmark
 
 == LICENSE:
 
