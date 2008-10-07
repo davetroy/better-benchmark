@@ -1,0 +1,6 @@
+=== 0.1.0 / 2008-10-07
+
+* Turned into a RubyGem!
+
+  * Special thanks to Pistos (better-benchmark) and those who worked on the rsruby gem and the R framework.
+

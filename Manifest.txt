@@ -1,0 +1,10 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+example/example.rb
+example/run-example
+lib/better-benchmark.rb
+lib/better-benchmark/better-benchmark.rb
+lib/better-benchmark/version.rb
+test/test_better-benchmark.rb
