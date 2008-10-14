@@ -13,13 +13,17 @@ module Benchmark
       times1 = []
       times2 = []
       
+      teardown1 = @options[:teardown1]
+      teardown2 = @options[:teardown2]
       (1..@options[ :iterations ]).each do |iteration|
         if @options[ :verbose ]
           $stdout.print "."; $stdout.flush
         end
         
         times1 << Benchmark.realtime { @block1.call( iteration ) }
+        teardown1.call if teardown1.respond_to?(:call)
         times2 << Benchmark.realtime { block2.call( iteration ) }
+        teardown2.call if teardown2.respond_to?(:call)
       end
       
       r = RSRuby.instance
